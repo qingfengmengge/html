@@ -1,0 +1,27 @@
+/**
+	@author:zm;
+*/
+header{
+	margin: 10px auto;
+}
+header div{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+}
+.zm_title{
+	font-size: 20px;
+	color: #333;
+	width: 60%;
+}
+.zm_home{
+	font-size: 14px;
+	color: #999;
+	border: 1px solid #999;
+	border-radius: 8px;
+}
+.zm_logintype{
+	color: #666;
+	font-size: 13px;
+	margin-right: 5%;
+}
