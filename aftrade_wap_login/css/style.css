@@ -5,6 +5,11 @@
 	padding: 0;
     -moz-box-sizing: border-box;  
     box-sizing: border-box;
+    outline: 0;
+}
+hr{
+	border: 0;
+	border-top: 1px solid #ccc;
 }
 .left{
 	float: left;
@@ -15,10 +20,6 @@
 .clear{
 	clear: both;
 }
-.h10{
-	height: 10px;
-}
-.logo{
-	height: 135px;
-	background: url('../images/dengluzhuce-icon.jpg') no-repeat;
+.relative{
+	position: relative;
 }

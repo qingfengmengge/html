@@ -6,23 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/zm_common.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/resetpwd.css">
 </head>
 <body>
 	<header>
 		<div class="zm_icon"></div>
-		<div class="zm_title">Sign In</div>
-		<div class="zm_home">Home</div>
+		<div class="zm_title">Reset Password</div>
 	</header>
 	<hr>
 	<div class="h10"></div>
 	<hr>
-	<div class="logo"></div>
 	<div id="login">
-		<div class="zm_logintype right">By Email</div>
-		<div class="clear"></div>
-		<div class="zm_select_input relative">
-			<!-- <div class="zm_jiantou"></div> -->
+		<div class="zm_type">Mobile number :</div>
+		<div class="zm_select_input">
 			<select name="zm_phonePre">
 				<option value="251">+251</option>
 				<option value="251">+251</option>
@@ -32,15 +28,21 @@
 			</select>
 			<input type="" class="telephone" name="telephone" placeholder="Mobile">
 		</div>
+		<div class="zm_type">Verification code :</div>
 		<div class="zm_select_input">
-			<input type="password" class="password" name="password" placeholder="Password">
+			<input type="" class="v_code" name="v_code">
+			<button type="button" class="zm_button">Get the code</button>
+		</div>
+		<div class="zm_type">Password :</div>
+		<div class="zm_select_input">
+			<input type="password" class="password" name="password" placeholder="At least 6 characters">
+		</div>
+		<div class="zm_type">Confirm password :</div>
+		<div class="zm_select_input">
+			<input type="password" class="password" name="repwd">
 		</div>
 		<div class="zm_select_input">
-			<input type="submit" class="sub" value="Sign In">
-		</div>
-		<div class="zm_select_input">
-			<a href="">Forgot Password</a>
-			<a href="" class="joinfree">Join Free</a>
+			<input type="submit" class="sub zm_button" value="Reset password">
 		</div>
 	</div>
 </body>

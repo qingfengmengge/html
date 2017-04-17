@@ -1,27 +1,48 @@
 /**
 	@author:zm;
+	@des:登陆页面样式;
 */
-header{
-	margin: 10px auto;
-}
-header div{
-	display: inline-block;
-	width: 18%;
-	text-align: center;
-}
-.zm_title{
-	font-size: 20px;
-	color: #333;
-	width: 60%;
-}
 .zm_home{
+	height: 23px;
+	line-height: 23px;
 	font-size: 14px;
 	color: #999;
 	border: 1px solid #999;
-	border-radius: 8px;
+	border-radius: 2px;
+}
+.logo{
+	width: 200px;
+    height: 68px;
+    background: url('../images/sign-icon.png') no-repeat;
+    background-size: 200px 128px;
+    margin: 40px auto 30px;
 }
 .zm_logintype{
 	color: #666;
 	font-size: 13px;
 	margin-right: 5%;
+}
+.zm_select_input{
+	margin-top: 20px;
+}
+.zm_select_input .sub{
+	background-color: #eb344a;
+	font-size: 17px;
+	color: #fff;
+	border-radius: 8px;
+	opacity: 0.8;
+}
+.zm_select_input a{
+	text-decoration: underline;
+	color: #999;
+	font-size: 13px;
+	display: block;
+	float: left;
+}
+.zm_select_input a:first-child{
+	margin-left: 4%;
+}
+.zm_select_input .joinfree{
+	float: right;
+	margin-right: 4%;
 }

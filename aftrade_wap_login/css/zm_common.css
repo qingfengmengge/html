@@ -1,0 +1,71 @@
+/**
+	@author:zm;
+	@des:登陆页面和重置密码页面公共样式
+*/
+/*头部代码*/
+header{
+	margin: 10px auto;
+}
+header div{
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+}
+.h10{
+	height: 10px;
+}
+.zm_icon{
+	height: 23px;
+    background: url('../images/sign-icon.png') no-repeat 0 -71px;
+    background-size: 200px 128px;
+}
+.zm_title{
+	font-size: 20px;
+	color: #333;
+	width: 69%;
+}
+/*主内容*/
+#login{
+	width: 92%;
+	margin: 0 auto;
+}
+.zm_select_input{
+	text-align:center;
+}
+.zm_select_input select,.zm_select_input input{
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+.zm_select_input .zm_jiantou{
+	height: 23px;
+	width: 23px;
+    background: url('../images/sign-icon.png') no-repeat -53px -71px;
+    background-size: 200px 128px;
+    position: absolute;
+    left: 14%;
+    top: 24%;
+}
+.zm_select_input select{
+	width: 20%;
+	padding-left: 2%;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.zm_phonePre option{
+	color: #333;
+	font-size: 15px;
+}
+.zm_select_input .telephone{
+	width: 80%;
+	margin-left: -2%;
+	padding-left: 2%;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.zm_select_input .password,.sub{
+	width: 100%;
+	margin-left: 0;
+	padding-left: 2%;
+}
